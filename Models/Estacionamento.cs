@@ -19,8 +19,7 @@ namespace DesafioFundamentos.Models
             ev = Console.ReadLine();
             veiculos.Add(ev);        
             
-        }  
-            
+        }              
 
         public void RemoverVeiculo()
         {
@@ -44,7 +43,7 @@ namespace DesafioFundamentos.Models
             }
         }
         
-        
+
         public void ListarVeiculos()
         {
             List<string> lv = new List<string>();
